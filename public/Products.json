@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "image": "../src/assets/products/writing_2327400 1.png",
+        "name": "AI Writing Pro",
+        "badge": "Best Seller",
+        "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+        "price": 29,
+        "billing": "Mo",
+        "features": [
+            "Unlimited AI generations",
+            "50+ writing templates",
+            "Grammar checker"
+        ],
+        "cta": "Buy Now"
+    },
+    {
+        "id": 2,
+        "image": "../src/assets/products/design-tool.png",
+        "name": "Design Templates Pack",
+        "badge": "Popular",
+        "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+        "price": 49,
+        "billing": "One-Time",
+        "features": [
+            "2000+ templates",
+            "Monthly updates",
+            "Commercial license"
+        ],
+        "cta": "Buy Now"
+    },
+    {
+        "id": 3,
+        "image": "../src/assets/products/camera.png",
+        "name": "Premium Stock Assets",
+        "badge": "New",
+        "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+        "price": 19,
+        "billing": "Mo",
+        "features": [
+            "10M+ assets",
+            "Commercial use",
+            "No attribution"
+        ],
+        "cta": "Buy Now"
+    },
+    {
+        "id": 4,
+        "image": "../src/assets/products/operation.png",
+        "name": "Automation Toolkit",
+        "badge": "Popular",
+        "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
+        "price": 79,
+        "billing": "Mo",
+        "features": [
+            "50+ automations",
+            "API access",
+            "Custom workflows"
+        ],
+        "cta": "Buy Now"
+    },
+    {
+        "id": 5,
+        "image": "../src/assets/products/portfolio.png",
+        "name": "Resume Builder Pro",
+        "badge": "New",
+        "description": "Create professional resumes and cover letters that land interviews.",
+        "price": 15,
+        "billing": "One-Time",
+        "features": [
+            "100+ templates",
+            "ATS optimization",
+            "Export to PDF"
+        ],
+        "cta": "Buy Now"
+    },
+    {
+        "id": 6,
+        "image": "../src/assets/products/social-media.png",
+        "name": "Social Media Content Kit",
+        "badge": "Best Seller",
+        "description": "Complete toolkit for creating engaging social media content across all platforms.",
+        "price": 39,
+        "billing": "Mo",
+        "features": [
+            "5000+ assets",
+            "Scheduler included",
+            "Analytics dashboard"
+        ],
+        "cta": "Buy Now"
+    },
+    {
+        "id": 7,
+        "image": "../src/assets/products/rocket.png",
+        "name": "SEO Booster Pro",
+        "badge": "Popular",
+        "description": "Improve your website rankings with advanced SEO tools and keyword analytics.",
+        "price": 59,
+        "billing": "Mo",
+        "features": [
+            "Keyword research tool",
+            "Backlink analyzer",
+            "Competitor tracking"
+        ],
+        "cta": "Buy Now"
+    },
+    {
+        "id": 8,
+        "image": "../src/assets/products/montage.png",
+        "name": "Video Editing Suite",
+        "badge": "New",
+        "description": "Edit and produce professional-quality videos with an intuitive drag-and-drop editor.",
+        "price": 89,
+        "billing": "Mo",
+        "features": [
+            "4K export support",
+            "500+ transitions",
+            "AI background remover"
+        ],
+        "cta": "Buy Now"
+    },
+    {
+        "id": 9,
+        "image": "../src/assets/products/ads-campaign.png",
+        "name": "Email Marketing Kit",
+        "badge": "Best Seller",
+        "description": "Create, send, and track high-converting email campaigns with ease.",
+        "price": 35,
+        "billing": "Mo",
+        "features": [
+            "Unlimited subscribers",
+            "A/B testing",
+            "Advanced analytics"
+        ],
+        "cta": "Buy Now"
+    },
+    {
+        "id": 10,
+        "image": "../src/assets/products/boohoo.png",
+        "name": "Logo Maker Pro",
+        "badge": "New",
+        "description": "Design stunning logos and brand identities in minutes with AI-powered tools.",
+        "price": 25,
+        "billing": "One-Time",
+        "features": [
+            "300+ logo templates",
+            "Vector file export",
+            "Full commercial rights"
+        ],
+        "cta": "Buy Now"
+    },
+    {
+        "id": 11,
+        "image": "../src/assets/products/shopping.png",
+        "name": "E-Commerce Starter Pack",
+        "badge": "Popular",
+        "description": "Launch and grow your online store with ready-made tools and integrations.",
+        "price": 99,
+        "billing": "Mo",
+        "features": [
+            "Unlimited products",
+            "Payment gateway integration",
+            "Inventory management"
+        ],
+        "cta": "Buy Now"
+    },
+    {
+        "id": 12,
+        "image": "../src/assets/products/time.png",
+        "name": "Productivity Planner",
+        "badge": "Best Seller",
+        "description": "Organize your tasks, goals, and projects with a smart all-in-one planner.",
+        "price": 12,
+        "billing": "One-Time",
+        "features": [
+            "Daily & weekly planner",
+            "Goal tracking",
+            "Team collaboration"
+        ],
+        "cta": "Buy Now"
+    }
+]
