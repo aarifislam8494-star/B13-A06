@@ -5,7 +5,7 @@ const Cart = ({ carts, setCarts }) => {
         setCarts([]);
     }
 
-    const filteredCart = (cart) => {
+    const handleRemove = (cart) => {
         const filter = carts.filter((c) => c.id !== cart.id);
         setCarts(filter);
     }
@@ -29,7 +29,7 @@ const Cart = ({ carts, setCarts }) => {
 
                     <div>
                         <a
-                            onClick={() => filteredCart(cart)}
+                            onClick={() => handleRemove(cart)}
                             className='text-[#FF3980] font-bold cursor-pointer'>Remove</a>
                     </div>
                 </div>

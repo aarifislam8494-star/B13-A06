@@ -3,7 +3,7 @@ import { CiShoppingCart } from 'react-icons/ci';
 
 const Navbar = ({ carts }) => {
     return (
-        <div>
+        <div className='sticky top-0 bg-white shadow z-50'>
             <div className="navbar sm:w-11/12 md:h-10/12 lg:h-10/12 mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -32,10 +32,10 @@ const Navbar = ({ carts }) => {
                     </ul>
                 </div>
                 <div className="navbar-end flex gap-3">
-                   <div>
+                   <div className='mr-1'>
                         <div className='relative flex'>
                             <span className='text-2xl cursor-pointer '><CiShoppingCart /></span>
-                            {carts.length > 1 &&
+                            {carts.length > 0 &&
                                 <span className='absolute bottom-4 left-4 bg-[#d62828] px-1.5 rounded-full text-white text-[12px]'>{carts.length}</span>
                             }
                         </div> 
