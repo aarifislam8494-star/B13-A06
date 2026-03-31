@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      <Navbar carts={carts} />
       <Banner />
       <StatBar />
       <ProductDesc />
@@ -29,15 +29,15 @@ function App() {
       <div className="tabs tabs-box justify-center bg-white mb-10">
         <input type="radio"
           name="my_tabs_1"
-          className="tab rounded-full"
+          className="tab rounded-full font-semibold"
           aria-label="Products"
           onClick={() => isSelected("Products")}
           defaultChecked
         />
         <input type="radio"
           name="my_tabs_1"
-          className="tab rounded-full"
-          aria-label="Cart"
+           className="tab rounded-full font-semibold"
+          aria-label={`Cart(${carts.length})`}
           onClick={() => isSelected("Cart")}
         />
       </div>

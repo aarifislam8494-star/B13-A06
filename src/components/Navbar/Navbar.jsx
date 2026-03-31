@@ -1,7 +1,7 @@
 import React from 'react';
 import { CiShoppingCart } from 'react-icons/ci';
 
-const Navbar = () => {
+const Navbar = ({ carts }) => {
     return (
         <div>
             <div className="navbar sm:w-11/12 md:h-10/12 lg:h-10/12 mx-auto">
@@ -32,8 +32,13 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end flex gap-3">
-                    <div className='text-2xl cursor-pointer'>
-                        <CiShoppingCart />
+                   <div>
+                        <div className='relative flex'>
+                            <span className='text-2xl cursor-pointer '><CiShoppingCart /></span>
+                            {carts.length > 1 &&
+                                <span className='absolute bottom-4 left-4 bg-[#d62828] px-1.5 rounded-full text-white text-[12px]'>{carts.length}</span>
+                            }
+                        </div> 
                     </div>
                     <span className='font-semibold cursor-pointer hidden md:flex'>Login</span>
                     <a className='font-semibold bg-linear-to-l from-[#9514FA] to-[#4F39F6] py-2 px-3 rounded-full text-white cursor-pointer hover:bg-linear-to-l hover:from-[#ff0054] hover:to-[#ff5400] hover:text-gray-200'>Get Started</a>
