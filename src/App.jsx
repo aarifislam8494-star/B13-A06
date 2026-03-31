@@ -8,6 +8,7 @@ import ProductDesc from './components/Tools/Product/ProductDesc'
 import Product from './components/Tools/Product/ProductDesc'
 import Products from './components/Tools/Product/Products'
 import Step from './components/Step/Step'
+import Pricing from './components/Pricing/Pricing'
 
 const getProducts = async () => {
   const res = await fetch("/Products.json");
@@ -54,6 +55,7 @@ function App() {
       />}
 
       <Step />
+      <Pricing />
     </>
   )
 }

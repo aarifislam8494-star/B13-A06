@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import { FaCheck } from 'react-icons/fa';
 
 const ProductCart = ({ product, carts, setCarts }) => {
-    console.log(carts);
-
+    
 
     const variants = {
         "Best Seller": "bg-[#FEF3C6] text-[#BB4D00] font-semibold",
