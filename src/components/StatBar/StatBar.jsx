@@ -2,7 +2,7 @@ import React from 'react';
 
 const StatBar = () => {
     return (
-        <div className='bg-linear-to-l from-[#9514FA] to-[#4F39F6] py-5 mb-10'>
+        <div className='bg-linear-to-l from-[#9514FA] to-[#4F39F6] py-5 my-20'>
             <div className='flex items-center max-w-[90%] sm:max-w-[70%] mx-auto text-white'>
 
                 <div className='flex-1 text-center'>

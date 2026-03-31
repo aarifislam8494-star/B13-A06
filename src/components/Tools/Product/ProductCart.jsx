@@ -22,7 +22,7 @@ const ProductCart = ({ product, carts, setCarts }) => {
     }
 
     return (
-        <div className='border border-[#F2F2F2] rounded-2xl p-5 flex flex-col'>
+        <div className='border border-[#F2F2F2] rounded-2xl p-5 flex flex-col transition-transform duration-300 hover:scale-102'>
             <div className='flex justify-end'>
                 <span className={`px-2 py-1 rounded-full ${variants[product.badge] || ""}`}>{product.badge}</span>
             </div>

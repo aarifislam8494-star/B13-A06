@@ -17,8 +17,8 @@ const Banner = () => {
                     <p className='opacity-70 font-medium text-lg mb-3'>Access premium AI tools, design assets, templates, and productivity software—all in one place. Start creating faster today. Explore Products.
                     </p>
                     <div className='flex gap-3'>
-                        <button className='font-semibold bg-linear-to-l from-[#9514FA] to-[#4F39F6] py-2 px-3 rounded-full text-white cursor-pointer hover:bg-linear-to-l hover:from-[#ff0054] hover:to-[#ff5400] hover:text-gray-200'>Explore Product</button>
-                        <button className='flex items-center gap-1 border border-[#4F39F6] rounded-full px-3 hover:bg-linear-to-l hover:from-[#bbdfc5] hover:to-[#ff579f]  hover:text-white hover:border-none cursor-pointer font-semibold'><CiPlay1 /> Watch Demo</button>
+                        <button className='font-semibold bg-linear-to-l from-[#9514FA] to-[#4F39F6] py-2 px-3 rounded-full text-white cursor-pointer hover:bg-linear-to-l hover:from-[#ff0054] hover:to-[#ff5400] hover:text-gray-200 transition-transform duration-200 ease-in-out hover:scale-105 active:scale-95'>Explore Product</button>
+                        <button className='flex items-center gap-1 border border-[#4F39F6] rounded-full px-3 hover:bg-linear-to-l hover:from-[#bbdfc5] hover:to-[#ff579f]  hover:text-white hover:border-none cursor-pointer font-semibold transition-transform duration-200 ease-in-out hover:scale-105 active:scale-95'><CiPlay1 /> Watch Demo</button>
                     </div>
                 </div>
 

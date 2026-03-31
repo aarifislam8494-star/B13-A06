@@ -41,7 +41,7 @@ const Navbar = ({ carts }) => {
                         </div> 
                     </div>
                     <span className='font-semibold cursor-pointer hidden md:flex'>Login</span>
-                    <a className='font-semibold bg-linear-to-l from-[#9514FA] to-[#4F39F6] py-2 px-3 rounded-full text-white cursor-pointer hover:bg-linear-to-l hover:from-[#ff0054] hover:to-[#ff5400] hover:text-gray-200'>Get Started</a>
+                    <a className='font-semibold bg-linear-to-l from-[#9514FA] to-[#4F39F6] py-2 px-3 rounded-full text-white cursor-pointer hover:bg-linear-to-l hover:from-[#ff0054] hover:to-[#ff5400] hover:text-gray-200 mr-2 sm:mr-0 transition-transform duration-200 ease-in-out hover:scale-105 active:scale-95'>Get Started</a>
                 </div>
             </div>
         </div>

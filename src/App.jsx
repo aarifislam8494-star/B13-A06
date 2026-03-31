@@ -7,6 +7,7 @@ import Cart from './components/Tools/Cart/Cart'
 import ProductDesc from './components/Tools/Product/ProductDesc'
 import Product from './components/Tools/Product/ProductDesc'
 import Products from './components/Tools/Product/Products'
+import Step from './components/Step/Step'
 
 const getProducts = async () => {
   const res = await fetch("/Products.json");
@@ -51,6 +52,8 @@ function App() {
         carts={carts}
         setCarts={setCarts}
       />}
+
+      <Step />
     </>
   )
 }
