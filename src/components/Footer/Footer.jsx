@@ -57,13 +57,13 @@ const Footer = () => {
 
             <div className="w-10/12 mx-auto divider before:bg-white after:bg-white opacity-10 py-5 md:py-10"></div>
 
-            <div className='w-10/12 mx-auto text-white opacity-70 flex justify-between flex-col md:flex-row text-center gap-2 pb-5 '>
-                <p>© 2026 Digitools. All rights reserved.</p>
+            <div className='w-10/12 mx-auto text-white flex justify-between flex-col md:flex-row text-center gap-2 pb-5 '>
+                <p className='opacity-70'>© 2026 Digitools. All rights reserved.</p>
                 <div>
                     <ul className='flex gap-5 cursor-pointer justify-center'>
-                        <li>Privacy Policy</li>
-                        <li>Terms of Service </li>
-                        <li>Cookies</li>
+                        <li className='opacity-70 hover:opacity-100'>Privacy Policy</li>
+                        <li className='opacity-70 hover:opacity-100'>Terms of Service </li>
+                        <li className='opacity-70 hover:opacity-100'>Cookies</li>
                     </ul>
                 </div>
             </div>

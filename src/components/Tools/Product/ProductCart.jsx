@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { FaCheck } from 'react-icons/fa';
+import { toast } from 'react-toastify';
+
 
 const ProductCart = ({ product, carts, setCarts }) => {
     
@@ -11,12 +13,15 @@ const ProductCart = ({ product, carts, setCarts }) => {
     }
 
     const [click, setClick] = useState(false);
+
     const handleSubscription = () => {
         setClick(true);
         const isFound = carts.find((i) => i.id === product.id);
         if (isFound) {
+            toast.error("Card already exist");
             return;
         }
+        toast.success("Item added to the cart");
         setCarts([...carts, product]);
     }
 

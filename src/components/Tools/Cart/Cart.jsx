@@ -1,13 +1,16 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const Cart = ({ carts, setCarts }) => {
     const checkout = () => {
         setCarts([]);
+        if (carts.length > 0 && toast.success("Checkout Successful"));
     }
 
     const handleRemove = (cart) => {
         const filter = carts.filter((c) => c.id !== cart.id);
         setCarts(filter);
+         toast.success("Item remove form the cart");
     }
 
     const totalPrice = carts.reduce((sum, item) => sum + item.price, 0);
@@ -40,7 +43,7 @@ const Cart = ({ carts, setCarts }) => {
                 <span className='text-[#101727] text-2xl font-bold'>$ {totalPrice}</span>
             </div>
 
-            <div className='bg-linear-to-l from-[#9514FA] to-[#4F39F6] py-2 rounded-full over:bg-linear-to-l hover:from-[#ff0054] hover:to-[#ff5400] hover:text-gray-200 transition-transform duration-200 ease-in-out hover:scale-102 active:scale-95'>
+            <div className='bg-linear-to-l from-[#9514FA] to-[#4F39F6] py-2 rounded-full over:bg-linear-to-l hover:from-[#ff0054] hover:to-[#ff5400] hover:text-gray-200'>
                 <button
                     onClick={checkout}
                     className='w-full font-bold text-white cursor-pointer '>Proceed to Checkout</button>

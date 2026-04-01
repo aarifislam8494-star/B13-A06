@@ -11,6 +11,7 @@ import Step from './components/Step/Step'
 import Pricing from './components/Pricing/Pricing'
 import CTASection from './components/CTASection/CTASection'
 import Footer from './components/Footer/Footer'
+import { ToastContainer } from 'react-toastify'
 
 const getProducts = async () => {
   const res = await fetch("/Products.json");
@@ -60,6 +61,7 @@ function App() {
       <Pricing />
       <CTASection />
       <Footer />
+      <ToastContainer />
     </>
   )
 }
