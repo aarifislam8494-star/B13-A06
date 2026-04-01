@@ -54,7 +54,10 @@ const ProductCart = ({ product, carts, setCarts }) => {
             <div className='mt-auto'>
                 <button
                     onClick={handleSubscription}
-                    className='font-semibold bg-linear-to-l from-[#9514FA] to-[#4F39F6] py-2 px-3 rounded-full text-white cursor-pointer hover:bg-linear-to-l hover:from-[#ff0054] hover:to-[#ff5400] hover:text-gray-200 w-full'>{click ? "Subscribed" : "Buy Now"}</button>
+                    className='font-semibold bg-linear-to-l from-[#9514FA] to-[#4F39F6] py-2 px-3 rounded-full text-white cursor-pointer hover:bg-linear-to-l hover:from-[#ff0054] hover:to-[#ff5400] hover:text-gray-200 w-full'>{click ? <div className='flex items-center justify-center gap-2'>
+                        <span className='text-green-400'><FaCheck /></span>
+                        <p>Added to Cart</p></div>
+                        : "Buy Now"}</button>
             </div>
         </div>
     );
