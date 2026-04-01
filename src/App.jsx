@@ -10,6 +10,7 @@ import Products from './components/Tools/Product/Products'
 import Step from './components/Step/Step'
 import Pricing from './components/Pricing/Pricing'
 import CTASection from './components/CTASection/CTASection'
+import Footer from './components/Footer/Footer'
 
 const getProducts = async () => {
   const res = await fetch("/Products.json");
@@ -58,6 +59,7 @@ function App() {
       <Step />
       <Pricing />
       <CTASection />
+      <Footer />
     </>
   )
 }
