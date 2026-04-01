@@ -31,20 +31,30 @@ function App() {
       <StatBar />
       <ProductDesc />
 
+       <style>{`
+         .tab:checked {
+         background: linear-gradient(to right, #4F39F6, #9514FA) !important;
+         color: white !important;
+       }
+   `}
+      </style>
+
       <div className="tabs tabs-box justify-center bg-white mb-10">
-        <input type="radio"
-          name="my_tabs_1"
-          className="tab rounded-full font-semibold"
-          aria-label="Products"
-          onClick={() => isSelected("Products")}
-          defaultChecked
-        />
-        <input type="radio"
-          name="my_tabs_1"
-           className="tab rounded-full font-semibold"
-          aria-label={`Cart(${carts.length})`}
-          onClick={() => isSelected("Cart")}
-        />
+         <div className='border px-2 py-1 border-[#f2f2f2] rounded-full'>
+          <input type="radio"
+            name="my_tabs_1"
+            className="tab rounded-full font-semibold"
+            aria-label="Products"
+            onClick={() => isSelected("Products")}
+            defaultChecked
+          />
+          <input type="radio"
+            name="my_tabs_1"
+            className="tab rounded-full font-semibold"
+            aria-label={`Cart(${carts.length})`}
+            onClick={() => isSelected("Cart")}
+          />
+        </div>
       </div>
 
       {selected === "Products"
